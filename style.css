@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    background-color:black;
+    width:200vh;
+    height:100vh;
+
+}
+section{
+    display: grid;
+    box-sizing: border-box;
+    width: 84vh;
+    height: 100vh;
+    background-color: hsl(0, 0%, 90%);
+    justify-self: center;
+}
+.form{
+    display: grid;
+    grid-auto-flow:row;
+    background-color: hsl(0deg 0% 100%);
+    height: 86vh ;
+    width:54vh;
+    justify-self: center;
+    gap: 10px;
+    margin-top: 46px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+h1{
+    color: hsl(233deg 66% 70%); 
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-right: 25px;
+    
+}
+.button{
+    width:300px;
+    background-color: hsl(232deg 68% 69%);
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    border-style: none;
+    background-image: linear-gradient( to right, #b959d7,#629deb );
+    margin-bottom: 10px;
+
+}
+.terms-and-cs{
+    color:hsl(0deg 0% 33%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 50px;
+}
+
+    
+
+.writting-box{
+    border-style: none;
+    font-size: 14px;
+}
+hr .line{
+    background-color: #f7e9f9;
+    
+   
+}
+
+.form{
+    box-shadow: 12px 1px 50px #b959d7, -0.2em 5px 50px #629deb;
+}
+h1{
+    font-size: 35px;
+
+    background: linear-gradient(-90deg, #b959d7,#629deb );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.first-label{
+   display: grid;
+    width: 320px;
+    border-style: none;
+    outline-style: none;
+    align-content: start;
+    gap: 5px;
+
+}
+.second-label{
+    display: grid;
+     width: 320px;
+     border-style: none;
+     outline-style: none;
+     align-content: start;
+     gap: 5px;
+    
+}
+.third-label{
+    display: grid;
+     width: 320px;
+     border-style: none;
+     outline-style: none;
+     align-content: start;
+     gap: 5px;
+}
+.fourth-label{
+    display: grid;
+     width: 320px;
+     border-style: none;
+     outline-style: none;
+     align-content: start;
+     gap: 5px;
+}
+.fourth-label{
+    display: grid;
+     width: 320px;
+     border-style: none;
+     outline-style: none;
+     align-content: start;
+     gap: 5px;
+}
+.fifth-label{
+    display: grid;
+     width: 320px;
+     border-style: none;
+     outline-style: none;
+     align-content: start;
+     gap: 10px;
+}
+
+.name{
+    outline: none;
+    border:none;
+    font-size: 16px;
+}
+.email{
+    outline: none;
+    border:none;
+    font-size: 16px;
+
+}
+.service{
+    outline: none;
+    border:none;
+    font-size: 16px;   
+    width: 320px;
+
+}
+.budget{
+    outline: none;
+    border:none;
+    font-size: 16px;
+   width: 320px;
+
+}
